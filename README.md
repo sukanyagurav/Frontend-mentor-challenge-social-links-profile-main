@@ -18,6 +18,14 @@ Your users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run watch`
+
+It will watch the tailwind css styles.
+
 ### Built with
 
 - Semantic HTML5 markup
