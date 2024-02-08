@@ -7,23 +7,40 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Social links profile</title>
-  
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   
 </head>
-<body class="font-sans mt-8 bg-offBlack flex flex-col min-h-screen items-center text-white">
-  <main class=" w-[400px] max-w-[100%] bg-darkGrey rounded-lg  text-center p-[2rem] px-[3rem]">
-    <img src="assets/images/avatar-jessica.jpeg " class="rounded-full mx-auto w-[100px]" alt="user profile image">
-    <h1 class="text-3xl my-3 mb-2">Jessica Randall</h1>
-    <h2 class="text-green font-700"> London, United Kingdom</h2>
-    <span class="my-4 mb-2 block ">"Front-end developer and avid reader."</span>
-    <div class="flex gap-5 flex-col  my-5 mb-2">
-      <a href="#none" class="px-4 py-3 bg-grey rounded-lg ">Github</a>
-      <a href="#none" class="px-4 py-3 bg-grey  rounded-lg">Frontend Mentor</a>
-      <a href="#none" class="px-4 py-3 bg-grey rounded-lg ">LinkedIn</a>
-      <a href="#none" class="px-4 py-3 bg-grey rounded-lg ">Twitter</a>
-      <a href="#none" class="px-4 py-3 bg-grey  rounded-lg">Instagram</a>
+<body class="font-sans mt-8 bg-offBlack flex flex-col min-h-screen items-center text-white p-3">
+  <main class=" w-[400px] max-w-[100%] h-[100%] transition-all duration-[0.9s] bg-darkGrey hover:shadow-[0px_1px_2px_0px_rgb(175,241,41),0px_2px_6px_2px_rgb(175,241,41)]  text-center  transition-all ease-in-out duration-[0.9s] p-[2rem] px-[3rem]  hover:shadow-green">
+    <div class="border-box">
+      <span class="line line01" aria-hidden="true"></span>
+      <span class="line line02" aria-hidden="true"></span>
+      <span class="line line03" aria-hidden="true"></span>
+      <span class="line line04" aria-hidden="true"></span>
     </div>
+      <div class="content ">
+
+        <img src="assets/images/avatar-jessica.jpeg "  class="rounded-full mx-auto w-[100px] animate__animated animate__zoomIn" alt="user profile image">
+        <h1 class="text-3xl my-3 mb-2 animate__animated animate__lightSpeedInRight">Jessica Randall</h1>
+        <h2 class="text-greenColor font-700 animate__animated animate__fadeInDown"> London, United Kingdom</h2>
+        <span class="my-4 mb-2 block animate__animated animate__pulse">"Front-end developer and avid reader."</span>
+        <div class="flex gap-7 flex-col  my-5 mb-2">
+          <a href="#none" class="px-4 py-3 bg-grey rounded-lg animate__animated  animate__fadeInDown  transition-all ease-in-out duration-[0.9s] hover:font-extrabold hover:shadow-[0px_5px_15px_rgb(175,241,41)]   hover:bg-greenColor hover:text-offBlack">Github</a>
+          <a href="#none" class="px-4 py-3 bg-grey  rounded-lg animate__animated animate__fadeInDown transition-all ease-in-out duration-[0.9s] hover:font-extrabold hover:shadow-[0px_5px_15px_rgb(175,241,41)]  hover:bg-greenColor hover:text-offBlack">Frontend Mentor</a>
+          <a href="#none" class="px-4 py-3 bg-grey rounded-lg animate__animated  animate__fadeInDown  transition-all ease-in-out duration-[0.9s] hover:font-extrabold hover:shadow-[0px_5px_15px_rgb(175,241,41)]   hover:bg-greenColor hover:text-offBlack">LinkedIn</a>
+          <a href="#none" class="px-4 py-3 bg-grey rounded-lg animate__animated  animate__fadeInDown transition-all  ease-in-out duration-[0.9s] hover:font-extrabold hover:shadow-[0px_5px_15px_rgb(175,241,41)]  hover:bg-greenColor hover:text-offBlack">Twitter</a>
+          <a href="#none" class="px-4 py-3 bg-grey  rounded-lg animate__animated  animate__fadeInDown transition-all ease-in-out duration-[0.9s] hover:font-extrabold  hover:shadow-[0px_5px_15px_rgb(175,241,41)]  hover:bg-greenColor hover:text-offBlack">Instagram</a>
+        </div>
+      </div>
+      
+   
   </main>
 
   
